@@ -1,5 +1,7 @@
 ---
 title: 静态资源引用
+id: version-1.3.20-static-reference
+original_id: static-reference
 ---
 
 在 Taro 中可以像使用 [Webpack](https://webpack.js.org/) 那样自由地引用静态资源，而且不需要安装任何 Loaders。

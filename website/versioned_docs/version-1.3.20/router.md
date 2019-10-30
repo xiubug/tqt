@@ -1,5 +1,7 @@
 ---
 title: 路由功能
+id: version-1.3.20-router
+original_id: router
 ---
 
 ## 路由 API 说明

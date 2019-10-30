@@ -1,6 +1,6 @@
 {
   "name": "tqt",
-  "version": "1.0.0",
+  "private": true,
   "description": "铜雀台文档系统",
   "main": "index.js",
   "scripts": {

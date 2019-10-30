@@ -1,5 +1,7 @@
 ---
 title: 更多资源
+id: version-1.3.22-composition
+original_id: composition
 ---
 
 最新的更多资源，请参考：[NervJS/awesome-taro](https://github.com/NervJS/awesome-taro)

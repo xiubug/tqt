@@ -1,5 +1,7 @@
 ---
 title: Debug 指南
+id: version-1.3.20-debug
+original_id: debug
 ---
 
 和所有框架一样，Taro 也可能存在 bug。当你认为你的代码没有问题，问题出在 Taro 时，可以按照本章内容进行调试。

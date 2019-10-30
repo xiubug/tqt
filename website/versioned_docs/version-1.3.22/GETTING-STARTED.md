@@ -1,5 +1,7 @@
 ---
 title: 安装及使用
+id: version-1.3.22-GETTING-STARTED
+original_id: GETTING-STARTED
 ---
 
 ## 安装
