@@ -21,10 +21,10 @@ const users = [
 ]
 
 const siteConfig = {
-  editUrl: 'https://github.com/nervjs/taro/edit/master/docs/',
-  title: 'Taro' /* title for your website */,
-  tagline: '多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信/百度/字节跳动/支付宝/QQ小程序、快应用、H5、React Native 等平台的应用。',
-  url: 'https://taro.jd.com' /* your website url */,
+  editUrl: 'https://github.com/sosout/tqt/edit/master/docs/',
+  title: 'TQT' /* title for your website */,
+  tagline: '铜雀台 · 文档管理系统',
+  url: 'http://www.sosout.com/' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
