@@ -81,7 +81,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href="http://www.sosout.com/">官网</Button>
             <Button href="/docs/README.html">文档</Button>
-            <Button href="https://github.com/NervJS/taro">Github</Button>
+            <Button href="https://github.com/sosout/tqt">Github</Button>
           </PromoSection>
         </div>
       </SplashContainer>

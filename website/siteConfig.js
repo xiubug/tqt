@@ -15,7 +15,7 @@ const users = [
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: 'img/logo-taro.png',
-    infoLink: 'https://taro.jd.com',
+    infoLink: 'http://www.sosout.com/',
     pinned: true
   }
 ]
@@ -31,8 +31,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'taro',
-  organizationName: 'NervJS',
+  projectName: 'tqt',
+  organizationName: 'sosout',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -46,7 +46,7 @@ const siteConfig = {
     {href: 'https://taro-ui.jd.com', label: 'Taro-UI'},
     {href: 'https://taro-ext.jd.com', label: '物料市场'},
     {href: 'https://taro-club.jd.com', label: '论坛'},
-    {href: 'https://github.com/NervJS/taro', label: 'GitHub'}
+    {href: 'https://github.com/sosout/tqt', label: 'GitHub'}
   ],
 
   algolia: {
