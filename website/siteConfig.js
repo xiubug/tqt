@@ -14,7 +14,7 @@ const users = [
     caption: '',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: 'img/logo-taro.png',
+    image: 'img/logo-tqt.png',
     infoLink: 'http://www.sosout.com/',
     pinned: true
   }
@@ -43,23 +43,20 @@ const siteConfig = {
     {doc: 'components-desc', label: '组件库'},
     {doc: 'apis/about/desc', label: 'API'},
     {search: true},
-    {href: 'https://taro-ui.jd.com', label: 'Taro-UI'},
-    {href: 'https://taro-ext.jd.com', label: '物料市场'},
-    {href: 'https://taro-club.jd.com', label: '论坛'},
     {href: 'https://github.com/sosout/tqt', label: 'GitHub'}
   ],
 
   algolia: {
-    apiKey: '57b9948bff42bc0dbc6c219556fbae35',
-    indexName: 'taro'
+    apiKey: '45ccc89b4b1e0e9463c80a66f168ae6d',
+    indexName: 'sosout_tqt'
   },
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo-taro.png',
-  footerIcon: 'img/logo-taro.png',
+  headerIcon: 'img/logo-tqt.png',
+  footerIcon: 'img/logo-tqt.png',
   favicon: 'img/favicon.ico',
 
   /* colors for website */
@@ -94,13 +91,9 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags
   scripts: [
     'https://buttons.github.io/buttons.js',
-    'https://jdc.jd.com/demo/talenttest/js/url.js',
+    'js/url.js',
     {
-      src: 'https://storage.jd.com/taro-resource/tongji.js',
-      async: true
-    },
-    {
-      src: 'https://storage.jd.com/taro-docs/taro-doc-hotjar.js',
+      src: 'js/tongji.js',
       async: true
     }
   ],
@@ -109,8 +102,8 @@ const siteConfig = {
   onPageNav: 'separate',
 
   /* Open Graph and Twitter card images */
-  ogImage: 'img/logo-taro.png',
-  twitterImage: 'img/logo-taro.png',
+  ogImage: 'img/logo-tqt.png',
+  twitterImage: 'img/logo-tqt.png',
 
   scrollToTop: true,
   docsSideNavCollapsible: true

@@ -18,17 +18,14 @@ class Footer extends React.Component {
           <div className='footer_link_container'>
             <div className='footer_link'>
               <h3 className='footer_link_tit footer_link_tit1'>相关资源</h3>
-              <p><a className='link' href='https://taro.jd.com/' target='_blank'>Taro</a></p>
-              <p><a className='link' href='https://taro-ui.jd.com/' target='_blank'>Taro UI</a></p>
-              <p><a className='link' href='https://at-ui.github.io/at-ui/#/zh' target='_blank'>At-UI</a></p>
-              <p><a className='link' href='https://nerv.aotu.io/' target='_blank'>Nerv</a></p>
-              <p><a className='link' href='https://athena.aotu.io/' target='_blank'>Athena</a></p>
+              {/** 
+                <p><a className='link' href='' target='_blank'>关联资源</a></p>
+               */}
             </div>
             <div className='footer_link'>
               <h3 className='footer_link_tit footer_link_tit2'>社区</h3>
-              <p><a href='https://github.com/NervJS/taro/issues' target='_blank'>GitHub</a></p>
-              <p><a href='https://taro-club.jd.com' target='_blank'>Taro BBS</a></p>
-              <p className='footer_link_connect_wrap'>
+              <p><a href='https://github.com/sosout' target='_blank'>GitHub</a></p>
+              {/** <p className='footer_link_connect_wrap'>
                 <span className='footer_link_connect footer_link_wechat'>微信<span className='wechat_qrcode_icon'>
                   <svg t='1554966525626' className='icon svgicon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='2588' data-spm-anchor-id='a313x.7781069.0.i0'>
                     <path d='M240.071 241.095h59.278v59.278h-59.278v-59.278z' fill='' p-id='2589' />
@@ -38,25 +35,26 @@ class Footer extends React.Component {
                   </svg>
                 </span></span>
                 <span className='footer_link_wechat_img'>
-                  <img src='https://camo.githubusercontent.com/10834a234b99a5880b5dff7c0ca7235e2a0772e7/687474703a2f2f696d6732302e333630627579696d672e636f6d2f7562612f6a66732f7432303139372f3238332f313638373136383837342f3133363034322f32623464383131662f35623330613635634e39643166303366312e706e67' />
+                  <img src='' />
                 </span>
-              </p>
+              </p> */}
             </div>
             <div className='footer_link'>
               <h3 className='footer_link_tit footer_link_tit3'>关于我们</h3>
-              <p><a href='https://aotu.io/' target='_blank'>凹凸实验室</a></p>
-              <p><a href='https://aotu.io/join/' target='_blank'>加入我们</a></p>
-              <p><a href='mailto:taro@jd.com?subject=【Taro 合作】合作标题'>联系我们</a></p>
+              {/** 
+                <p><a href='' target='_blank'>加入我们</a></p>
+              */}
             </div>
             <div className='footer_link'>
               <h3 className='footer_link_tit footer_link_tit4'>感谢</h3>
-              <p><a href='http://jdc.jd.com/' target='_blank'>用户体验设计部</a></p>
-              <p><a href='https://github.com/nervjs/taro#%E8%B4%A1%E7%8C%AE%E8%80%85%E4%BB%AC' target='_blank'>Taro 贡献者们</a></p>
+              {/** 
+                <p><a href='' target='_blank'>感谢</a></p>
+              */}
             </div>
           </div>
         </div>
         <div className='copyright'>
-          <div className='in'>Copyright © 2019. All Rights Reserved. 粤ICP备15077732号-2</div>
+          <div className='in'>Copyright © 2019. All Rights Reserved. 鲁ICP备16035570号-1</div>
         </div>
       </footer>
     )
